@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah Al Siam — CSE Student</title>
+<meta name="description" content="Portfolio of Abdullah Al Siam, CSE student at Sonargaon University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#top" class="nav-logo">AAS<span class="cursor-blink">_</span></a>
+  <nav class="nav-links">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#stack">stack</a>
+    <a href="#education">education</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="terminal" role="img" aria-label="Terminal window greeting the visitor">
+        <div class="terminal-bar">
+          <div class="terminal-dots"><span></span><span></span><span></span></div>
+          <div class="terminal-title">Terminal</div>
+        </div>
+        <div class="terminal-body">
+          <p class="line"><span class="prompt">user</span><span class="path">@pc</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span> ./welcome.sh</p>
+          <p class="line output" id="typedName"></p>
+          <p class="line output" id="typedRole"></p>
+          <p class="line"><span class="prompt">user</span><span class="path">@pc</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span><span class="cursor-block"></span></p>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="avatar-frame">
+          <img src="6161148638319546642 (1).jpg" alt="Abdullah Al Siam" class="avatar-img" id="avatarImg">
+          <div class="avatar-fallback" id="avatarFallback">AS</div>
+        </div>
+        <p class="hero-tagline">CSE undergraduate building things across code, design and video — from a terminal in Dhaka.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="mailto:abdullahalsiam811@gmail.com" class="btn btn-ghost">Email me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="eyebrow">@ about</span>
+      <h2>A CSE student who ships more than code</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm Abdullah Al Siam, a Computer Science &amp; Engineering major at
+        <a href="https://su.edu.bd/" target="_blank" rel="noopener">Sonargaon University</a>.
+        Alongside coursework, I work across design and media Photoshop compositing,
+        Figma interfaces, video editing, and data entry plus writing, when a project
+        needs a clear voice instead of another line of code. I like projects that move
+        between disciplines rather than staying in one lane.
+      </p>
+      <div class="about-meta">
+        <div class="meta-row">
+          <span class="meta-label">location</span>
+          <span class="meta-value">Dhaka, Bangladesh</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">university</span>
+          <span class="meta-value"><a href="https://su.edu.bd/" target="_blank" rel="noopener">Sonargaon University</a></span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">major</span>
+          <span class="meta-value">Computer Science &amp; Engineering</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">status</span>
+          <span class="meta-value"><span class="dot-live"></span> open to opportunities</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="eyebrow">@ skills list</span>
+      <h2>What I work with</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-flag">--design</span>
+        <h3>Adobe Photoshop</h3>
+        <p>Compositing, retouching and graphics for web and print.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-flag">--design</span>
+        <h3>Figma</h3>
+        <p>Interface design, prototyping and design systems.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-flag">--media</span>
+        <h3>Video Editing</h3>
+        <p>Cutting, pacing and colour for short-form and long-form video.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-flag">--ops</span>
+        <h3>Data Entry</h3>
+        <p>Accurate, fast, organised handling of structured data.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-flag">--content</span>
+        <h3>Writing</h3>
+        <p>Clear, expressive writing — technical or narrative.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-flag">--dev</span>
+        <h3>Web Development</h3>
+        <p>Building responsive, functional websites from the ground up.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK / LANGUAGES -->
+  <section class="section" id="stack">
+    <div class="section-head">
+      <span class="eyebrow">@ stack languages</span>
+      <h2>Languages I code in</h2>
+    </div>
+    <ul class="stack-list">
+      <li><span class="stack-name">HTML</span><span class="stack-tag">markup</span></li>
+      <li><span class="stack-name">CSS</span><span class="stack-tag">styling</span></li>
+      <li><span class="stack-name">JavaScript</span><span class="stack-tag">web</span></li>
+      <li><span class="stack-name">C</span><span class="stack-tag">systems</span></li>
+      <li><span class="stack-name">C++</span><span class="stack-tag">systems</span></li>
+    </ul>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head">
+      <span class="eyebrow">@ education</span>
+      <h2>Currently studying</h2>
+    </div>
+    <div class="edu-card">
+      <div class="edu-main">
+        <h3><a href="https://su.edu.bd/" target="_blank" rel="noopener">Sonargaon University</a></h3>
+        <p>B.Sc. in Computer Science &amp; Engineering</p>
+      </div>
+      <a href="https://su.edu.bd/" target="_blank" rel="noopener" class="edu-link">su.edu.bd ↗</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-head">
+      <span class="eyebrow">@ contact --socials</span>
+      <h2>Let's connect</h2>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-row" href="mailto:abdullahalsiam811@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">abdullahalsiam811@gmail.com</span>
+      </a>
+      <a class="contact-row" href="https://www.facebook.com/abdullahal.siam.9028" target="_blank" rel="noopener">
+        <span class="contact-label">Facebook</span>
+        <span class="contact-value">abdullahal.siam.9028 ↗</span>
+      </a>
+      <a class="contact-row" href="https://www.instagram.com/abdullah_siam911/" target="_blank" rel="noopener">
+        <span class="contact-label">Instagram</span>
+        <span class="contact-value">@abdullah_siam911 ↗</span>
+      </a>
+      <a class="contact-row" href="https://x.com/aasiam911" target="_blank" rel="noopener">
+        <span class="contact-label">X</span>
+        <span class="contact-value">@aasiam911 ↗</span>
+      </a>
+      <a class="contact-row" href="https://x.com/aasiam911" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">@aasiam911 ↗</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Abdullah Al Siam. Built with HTML &amp; CSS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
